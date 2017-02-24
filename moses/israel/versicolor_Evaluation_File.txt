@@ -1,0 +1,18 @@
+Date: 2017-02-23
+This Is The Evaluation Data For the versicolor Flower Class
+
+-----------------------------------------------------------
+	TP = 16 , FN = 1
+	FP = 17 , TN = 17
+
+-----------------------------------------------------------
+
+TP Ratio = 16 : 17
+FP Ratio = 17 : 34
+TN Ratio = 17 : 34
+FN Ratio = 1 : 17
+
+>> Versicolr Best Combo Evaluation =====================
+	Accuracy  = 64.71 %
+	Percision = 48.48 %
+	Recall = 94.12 %

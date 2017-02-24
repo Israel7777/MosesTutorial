@@ -1,0 +1,19 @@
+Date: 2017-02-23
+This Is The Evaluation Data For the Setota Flower Class
+
+-----------------------------------------------------------
+	TP = 16 , FN = 1
+	FP = 8 , TN = 26
+
+-----------------------------------------------------------
+
+TP Ratio = 16 : 17
+FP Ratio = 8 : 34
+TN Ratio = 26 : 34
+FN Ratio = 1 : 17
+
+>> Setota Best Combo Evaluation =====================
+	Accuracy  = 82.35 %
+	Percision = 66.67 %
+	Recall = 94.12 %
+ 

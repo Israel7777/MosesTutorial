@@ -1,0 +1,21 @@
+Setota Training Score
+Combo 0 	$PL1 		 Score 0
+Combo 1 	!$PL2 		 Score 0
+Combo 2 	and(!$SL3 !$PL2) 		 Score 0
+Combo 3 	and(!$SW1 $PL1) 		 Score 0
+Combo 4 	and(!$PL2 !$PW2) 		 Score 0
+Combo 5 	and(!$PL2 !$PW3) 		 Score 0
+Combo 6 	or(!$PL2 $PL3) 		 Score 0
+Combo 7 	and($SL $PL1) 		 Score -2
+Combo 8 	and(!$SL2 !$PL2) 		 Score -2
+Combo 9 	and(!$SL2 !$PW2) 		 Score -7
+Combo 10 	$SL 		 Score -11
+Combo 11 	and(!$SW2 $PL1) 		 Score -11
+Combo 12 	and($SW3 $PL1) 		 Score -11
+Combo 13 	$SW3 		 Score -12
+Combo 14 	$PW1 		 Score -12
+Combo 15 	and(!$SW1 !$SW2) 		 Score -12
+Combo 16 	and(!$SW1 $SW3) 		 Score -12
+Combo 17 	and($SW3 !$PW3) 		 Score -12
+Combo 18 	and($SL $SW3) 		 Score -13
+Combo 19 	!$PW2 		 Score -14

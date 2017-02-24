@@ -1,0 +1,18 @@
+Date: 2017-02-23
+This Is The Evaluation Data For the virginica Flower Class
+
+-----------------------------------------------------------
+	TP = 16 , FN = 1
+	FP = 16 , TN = 18
+
+-----------------------------------------------------------
+
+TP Ratio = 16 : 17
+FP Ratio = 16 : 34
+TN Ratio = 18 : 34
+FN Ratio = 1 : 17
+
+>> virginica Best Combo Evaluation =====================
+	Accuracy  = 65.38 %
+	Percision = 50.00 %
+	Recall = 94.12%

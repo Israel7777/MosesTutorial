@@ -1,0 +1,21 @@
+versicolor Training Score
+Combo 0 	or(and($SL2 $PW3) and($SL3 !$PW3)) 		 Score 0
+Combo 1 	and($SL3 !$PW3) 		 Score 0
+Combo 2 	or($SL3 $PW3) 		 Score 0
+Combo 3 	and(!$SL $SL3 !$PW3) 		 Score 0
+Combo 4 	and(!$SL2 $SL3 !$PW3) 		 Score 0
+Combo 5 	and($SL3 !$SW1 !$PW3) 		 Score 0
+Combo 6 	and($SL3 $SW2 !$PW3) 		 Score 0
+Combo 7 	and($SL3 !$SW3 !$PW3) 		 Score -2
+Combo 8 	and($SL3 !$PL1 !$PW3) 		 Score -2
+Combo 9 	and($SL3 $PL2 !$PW3) 		 Score -7
+Combo 10 	and($SL3 !$PL3 !$PW3) 		 Score -11
+Combo 11 	and($SL3 !$PW1 !$PW3) 		 Score -11
+Combo 12 	and($SL3 $PW2 !$PW3) 		 Score -11
+Combo 13 	or($SL3 $PL3 $PW3) 		 Score -12
+Combo 14 	and(or($SL3 $PL3) !$PW3) 		 Score -12
+Combo 15 	and(or($SL3 $PW3) !$SL) 		 Score -12
+Combo 16 	and(or($SL3 $PW3) !$SW1) 		 Score -12
+Combo 17 	and(or($SL3 $PW3) $SW2) 		 Score -12
+Combo 18 	and(or($SL3 $PW3) !$SW3) 		 Score -13
+Combo 19 	and(or($SL3 $PW3) !$PL1) 		 Score -14

@@ -1,0 +1,71 @@
+[2017-02-23 10:30:28:467] [INFO] moses version 3.6.10
+[2017-02-23 10:30:28:467] [INFO] hostname: israel
+[2017-02-23 10:30:28:467] [INFO] Command line: moses -i /tmp/tmpSEzr2Q --output-format python -o /tmp/tmpSOXYHI -W1 -u CLASS -m1000000 --result-count=20
+[2017-02-23 10:30:28:467] [INFO] Read data file /tmp/tmpSEzr2Q
+[2017-02-23 10:30:28:468] [INFO] Number of rows in tables = 78
+[2017-02-23 10:30:28:468] [INFO] Inferred arity = 12
+[2017-02-23 10:30:28:468] [INFO] Table signature ->(boolean boolean boolean boolean boolean boolean boolean boolean boolean boolean boolean boolean boolean)
+[2017-02-23 10:30:28:468] [INFO] Inferred output type: boolean
+[2017-02-23 10:30:28:468] [INFO] Alphabet size = 15 output = boolean
+[2017-02-23 10:30:28:468] [INFO] ctruth_table_bscore: Best possible: behavioral score: [-3 -0 -1 -0 -8 -1 -7 -0 -0 -1 -0 -0]
+[2017-02-23 10:30:28:468] [INFO] BScore complexity ratio = 3.5
+[2017-02-23 10:30:28:468] [INFO] Cache composite scores
+[2017-02-23 10:30:28:468] [INFO] ctruth_table_bscore: Best possible: behavioral score: [-3 -0 -1 -0 -8 -1 -7 -0 -0 -1 -0 -0]
+[2017-02-23 10:30:28:468] [INFO] Inferred target score = -21
+[2017-02-23 10:30:28:468] [INFO] Subtract 0.5 (minimum significant improvement) from the target score to deal with float imprecision = -21.5
+[2017-02-23 10:30:28:468] [INFO] MOSES starts, max_evals=1000000 max_gens=-1 max_time=2147483647
+[2017-02-23 10:30:28:468] [INFO] Stats: # 
+Stats: # Stats are tab-separated, ready for graphing.
+Stats: # You can also use the script parse_log.py to extract a CSV file given a moses log file.
+Stats: # Column explanation:
+Stats: # 
+Stats: # gen is the generation number.
+Stats: # num_evals is the number of scoring function evaluations so far.
+Stats: # elapsed is the wall-clock time, in seconds, since start.
+Stats: # metapop_size is the size of the metapopulation.
+Stats: # best_score is the highest raw score seen, of all exemplars.
+Stats: # complexity is in bits, of the highest-composite score exemplar.
+Stats: # field_set_size is the ESTIMATED number of bits in all the knobs.
+Stats: # optim_steps is the number of steps the optimizer took.
+Stats: # over_budget is bool, T if search exceeded scoring func eval budget.
+Stats: # 
+Stats: # gen	num_evals	elapsed	metapop_size	best_score	complexity	field_set_size	optim_steps	over_budget
+[2017-02-23 10:30:28:468] [INFO] Start knob building, rep size=1 complexity=0
+[2017-02-23 10:30:28:477] [INFO] After knob building, rep size=292 complexity=0
+[2017-02-23 10:30:28:477] [INFO] Total number of field specs: 96
+[2017-02-23 10:30:28:478] [INFO] Number of disc knobs mapped: 96
+[2017-02-23 10:30:28:478] [INFO] Number of contin knobs mapped: 0
+[2017-02-23 10:30:28:478] [INFO] Field set, in bytes: 2912
+[2017-02-23 10:30:28:478] [INFO] One instance, in bytes: 48
+[2017-02-23 10:30:28:478] [INFO] DemesHill: # demeID	iteration	total_steps	total_evals	microseconds	new_instances	num_instances	inst_RAM	num_evals	has_improved	best_weighted_score	delta_weighted	best_raw	delta_raw	complexity
+[2017-02-23 10:30:28:478] [INFO] DemesHill: 1	1	1	1	46	1	1	4.57764e-05	1	1	-52	3.40282e+38	-52	3.40282e+38	0
+[2017-02-23 10:30:28:485] [INFO] DemesHill: 1	2	2	193	7157	192	193	0.00883484	193	1	-24.5714	27.4286	-24	28	2
+[2017-02-23 10:30:28:502] [INFO] DemesHill: 1	3	3	385	17316	192	385	0.0176239	385	1	-23.8571	0.714285	-23	1	3
+[2017-02-23 10:30:28:523] [INFO] DemesHill: 1	4	4	577	20905	192	577	0.026413	577	1	-23.1429	0.714287	-22	1	4
+[2017-02-23 10:30:28:546] [INFO] DemesHill: 1	5	5	769	23173	192	769	0.035202	769	0	-23.1429	0	-22	0	4
+[2017-02-23 10:30:28:561] [INFO] DemesHill: 1	6	6	889	14683	120	889	0.0406952	889	0	-23.1429	0	-22	0	4
+[2017-02-23 10:30:28:712] [INFO] Expansion 1 done
+[2017-02-23 10:30:28:712] [INFO] Total number of evaluations so far: 889
+[2017-02-23 10:30:28:712] [INFO] The following candidate(s) have the best score [score=-22, penalized score=-23.1428565979003906, complexity=4, complexity penalty=1.14285719394683838, diversity penalty=0]
+[2017-02-23 10:30:28:712] [INFO] -22 or(and($2 $5) $4 $9)
+[2017-02-23 10:30:28:712] [INFO] -22 or(and($2 $5) $4 $12)
+[2017-02-23 10:30:28:712] [INFO] Stats: 1	889	0	41	-22	4	0	6	0
+[2017-02-23 10:30:28:712] [INFO] Start knob building, rep size=6 complexity=4
+[2017-02-23 10:30:28:758] [INFO] After knob building, rep size=424 complexity=4
+[2017-02-23 10:30:28:759] [INFO] Total number of field specs: 141
+[2017-02-23 10:30:28:759] [INFO] Number of disc knobs mapped: 141
+[2017-02-23 10:30:28:759] [INFO] Number of contin knobs mapped: 0
+[2017-02-23 10:30:28:759] [INFO] Field set, in bytes: 4172
+[2017-02-23 10:30:28:759] [INFO] One instance, in bytes: 56
+[2017-02-23 10:30:28:759] [INFO] DemesHill: # demeID	iteration	total_steps	total_evals	microseconds	new_instances	num_instances	inst_RAM	num_evals	has_improved	best_weighted_score	delta_weighted	best_raw	delta_raw	complexity
+[2017-02-23 10:30:28:759] [INFO] DemesHill: 2	1	7	890	131	1	1	5.34058e-05	1	1	-23.1429	3.40282e+38	-22	3.40282e+38	4
+[2017-02-23 10:30:28:792] [INFO] DemesHill: 2	2	8	1146	33119	256	257	0.0137253	257	0	-22.7143	0.42857	-21	1	6
+[2017-02-23 10:30:28:859] [INFO] Expansion 2 done
+[2017-02-23 10:30:28:859] [INFO] Total number of evaluations so far: 1146
+[2017-02-23 10:30:28:859] [INFO] The following candidate(s) have the best score [score=-21, penalized score=-22.7142868041992188, complexity=6, complexity penalty=1.71428585052490234, diversity penalty=0]
+[2017-02-23 10:30:28:859] [INFO] -21 and(or(and($2 $5) $4 $12) or(!$8 $11))
+[2017-02-23 10:30:28:859] [INFO] Stats: 2	1146	0	112	-21	6	0	2	0
+[2017-02-23 10:30:28:860] [INFO] Best candidates:
+-21 and(or(and($2 $5) $4 $12) or(!$8 $11))  [score=-21, penalized score=-22.7142868041992188, complexity=6, complexity penalty=1.71428585052490234, diversity penalty=0] demeID: 2
+
+[2017-02-23 10:30:28:860] [INFO] Cache composite scores hits=566 misses=581
